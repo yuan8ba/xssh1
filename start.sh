@@ -4,7 +4,7 @@ source /app/config.sh
 service ssh start
 service nginx start
 
-
+sleep 1m
 mkdir /etc/v2ray /usr/local/v2ray v2ray
 unzip -d /usr/local/v2ray v2ray-linux-64.zip
 cp geosite.dat /usr/local/v2ray
