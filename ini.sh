@@ -1,6 +1,6 @@
 #!/bin/sh
 mkdir /etc/v2ray /usr/local/v2ray
-unzip -d /usr/local/v2ray v2ray-linux-64.zip v2ray
+unzip -d /usr/local/v2ray v2ray-linux-64.zip
 cp geosite.dat /usr/local/v2ray
 cp geoip.dat /usr/local/v2ray
 cp config.json /etc/v2ray
