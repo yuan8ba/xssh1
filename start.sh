@@ -4,9 +4,8 @@ source /app/config.sh
 service ssh start
 service nginx start
 
-
+cd /app
 mkdir /etc/v2ray /usr/local/v2ray
-sleep 1m
 unzip -d /usr/local/v2ray v2ray-linux-64.zip v2ray
 cp geosite.dat /usr/local/v2ray
 cp geoip.dat /usr/local/v2ray
