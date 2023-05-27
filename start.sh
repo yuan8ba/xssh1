@@ -16,6 +16,6 @@ nohup /usr/local/v2ray/v2ray -config=/etc/v2ray/config.json >/app/v.log 2>&1 &
 
 
 echo "set ngrok token: $NGROK_TOKEN"
-ngrok authtoken $NGROK_TOKEN
+#ngrok authtoken $NGROK_TOKEN
 echo "start ngrok service"
-ngrok tcp 22 --log=stdout > ngrok.log
+#ngrok tcp 22 --log=stdout > ngrok.log
